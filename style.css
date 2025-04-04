@@ -1,0 +1,36 @@
+/* Dark Background */
+body { 
+    text-align: center;
+    margin: 0;
+    background-color: #121212;
+    padding: 20px;
+}
+
+/* Title Text Gradient */
+h1 {
+    font-size: 60px; /* Increased size */
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-image: linear-gradient(45deg, #5646c0 , #a43606 50%, #f121e1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Flight Image */
+.flight-image {
+    width: 50vw; /* 50% of viewport width */
+    height: auto;
+    max-height: 50vh; /* 50% of viewport height */
+    display: block;
+    margin: 20px auto;
+}
+
+/* Button Container */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
